@@ -26,13 +26,13 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Erfahr
 
 .Schritte
 . Wählen Sie im Navigationsmenü von BlueXP *Storage > Canvas*.
-. Klicken Sie auf *Arbeitsumgebung hinzufügen* und wählen Sie *On-Premise*.
+. Wählen Sie *Arbeitsumgebung hinzufügen* und dann *On-premises*.
 . Wählen Sie neben *StorageGRID* *Entdecken*.
 . Wenn Sie dazu aufgefordert werden, erstellen Sie einen Konnektor.
 +
 Weitere Informationen erhalten Sie über den obigen Link.
 
-. Geben Sie auf der Seite _StorageGRID Cluster Details_ den Domänennamen oder die IP-Adresse des Admin-Knotens, die Anmeldeinformationen für den Knoten ein, und klicken Sie dann auf *Hinzufügen*.
+. Geben Sie auf der Seite _StorageGRID-Cluster-Details_ den Domänennamen oder die IP-Adresse des Admin-Knotens sowie die Anmeldeinformationen für den Knoten ein, und wählen Sie dann *Hinzufügen* aus.
 +
 image:screenshot-cluster-details.png["Ein Screenshot, der die Seite „StorageGRID-Cluster-Details“ zeigt, auf der Sie den Domain-Namen oder die IP-Adresse des Admin-Nodes und die Anmeldedaten eingeben."]
 

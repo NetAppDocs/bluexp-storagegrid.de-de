@@ -19,10 +19,11 @@ Entfernen Sie eine StorageGRID-Arbeitsumgebung, wenn Sie sie nicht mehr über Bl
 Das Entfernen der Arbeitsumgebung hat keine Auswirkung auf das StorageGRID System. Sie können sie jederzeit über BlueXP wiederentdecken.
 
 .Schritte
-. Doppelklicken Sie auf dem Bildschirm auf den Namen der StorageGRID-Arbeitsumgebung.
-. Klicken Sie auf das Menüsymbol und wählen Sie *aus Arbeitsbereich entfernen*.
+. Wählen Sie im Navigationsmenü die Option *Storage > Canvas* aus.
+. Wählen Sie auf der Seite Bildschirm die Arbeitsumgebung StorageGRID aus.
+. Wählen Sie das Menüsymbol und dann *aus Arbeitsbereich entfernen*.
 +
 image:screenshot-remove.png["Ein Screenshot der Option aus Arbeitsbereich entfernen, die im Menü oben rechts in der Arbeitsumgebung verfügbar ist."]
 
-. Klicken Sie zur Bestätigung auf *Entfernen*.
+. Wählen Sie *Entfernen*, um zu bestätigen.
 
