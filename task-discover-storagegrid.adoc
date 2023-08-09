@@ -13,6 +13,7 @@ summary: BlueXP kann die StorageGRID Systeme in Ihrer On-Premises-Umgebung entde
 :imagesdir: ./media/
 
 
+[role="lead"]
 BlueXP kann die StorageGRID Systeme in Ihrer On-Premises-Umgebung entdecken. Beim Hinzufügen von StorageGRID Systemen zu BlueXP erhalten Sie eine vollständige Ansicht der Daten in Ihrer hybriden Multi-Cloud.
 
 .Was Sie benötigen

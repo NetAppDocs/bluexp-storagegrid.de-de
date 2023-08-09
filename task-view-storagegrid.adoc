@@ -13,6 +13,7 @@ summary: Nachdem die StorageGRID Systeme ermittelt wurden, werden Details zur Ka
 :imagesdir: ./media/
 
 
+[role="lead"]
 Nachdem die StorageGRID Systeme ermittelt wurden, werden Details zur Kapazitätsverteilung und den zugehörigen Warnmeldungen, Nodes und Mandanten angezeigt.
 
 .Schritte

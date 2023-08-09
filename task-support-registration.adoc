@@ -10,6 +10,7 @@ summary: Bevor Sie einen Support-Fall beim technischen Support von NetApp eröff
 :imagesdir: ../media/
 
 
+[role="lead"]
 Für Ihr BlueXP Konto und für einzelne Cloud Volumes ONTAP Systeme ist eine Support-Registrierung erforderlich.
 
 
