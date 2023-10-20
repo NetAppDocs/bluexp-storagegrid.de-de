@@ -15,7 +15,6 @@
   <block id="e51c4414740e4f4ba2e02bd06c8d9e88" category="inline-image-macro">Einen Screenshot der Registerkarte „Mandanten“ in einer StorageGRID Arbeitsumgebung.</block>
   <block id="c99b6babe545010e47410b64d23e3096" category="paragraph"><block ref="c99b6babe545010e47410b64d23e3096" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b501cdbb274f1f3688a32519c0624867" category="summary">Entfernen Sie eine StorageGRID-Arbeitsumgebung, wenn Sie sie nicht mehr über BlueXP verwalten möchten.</block>
-  <block id="eabf36128e3f33d63b2921cfcf0f1162" category="doc">Entfernen Sie eine StorageGRID-Arbeitsumgebung</block>
   <block id="25688ec9bc48b0c01ad79b9dd8586d35" category="paragraph">Das Entfernen der Arbeitsumgebung hat keine Auswirkung auf das StorageGRID System. Sie können sie jederzeit über BlueXP wiederentdecken.</block>
   <block id="9ae507836de7475bf9902e01733fe556" category="inline-image-macro">Ein Screenshot der Option aus Arbeitsbereich entfernen, die im Menü oben rechts in der Arbeitsumgebung verfügbar ist.</block>
   <block id="c8e6868d5b00caa06a19765007794f02" category="paragraph"><block ref="c8e6868d5b00caa06a19765007794f02" category="inline-image-macro-rx" type="image"></block></block>
@@ -117,7 +116,6 @@
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Los geht's</block>
   <block id="f8fe3d533b3c8ec77c886cdbfcbd8c60" category="sidebar">Erkennen Sie Ihre StorageGRID Systeme</block>
   <block id="a6ba2d89122672398b70094e4effce77" category="sidebar">Managen Sie StorageGRID Systeme</block>
-  <block id="d4fe66ba55f1e103d1e1ef42d9901921" category="sidebar">StorageGRID Systeme entfernen</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Support</block>
   <block id="5a48514fa915876d588438500b09c18f" category="sidebar">Entfernen Sie StorageGRID</block>
   <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">Weitere Informationen</block>
@@ -126,7 +124,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP-Blog</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Cloud-Webinare</block>
-  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">Was Sie benötigen</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Ergebnis</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">Bevor Sie beginnen</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Nachdem Sie fertig sind</block>
@@ -256,4 +253,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Unterstützung für Fileservices von Cloud-Providern</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Technischen Support zu Fileservices von Cloud-Providern, zu seiner Infrastruktur oder zu beliebigen Lösungen, die den Service verwenden, finden Sie im Abschnitt „Hilfe erhalten“ in der BlueXP Dokumentation zu diesem Produkt.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Wenn Sie technischen Support für BlueXP und seine Storage-Lösungen und -Services erhalten möchten, nutzen Sie die unten beschriebenen Support-Optionen.</block>
+  <block id="724a6db0c5e9b582c8f6ea917749db0a" category="doc">Entfernen einer StorageGRID-Arbeitsumgebung</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Bevor Sie beginnen</block>
+  <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">Sie benötigen Folgendes:</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Was ist neu</block>
+  <block id="a9e825fa00a6490b83a7ab53e320af9a" category="sidebar">Entfernen Sie eine Arbeitsumgebung</block>
 </blocks>
