@@ -1,0 +1,33 @@
+---
+indexpage:
+  title: StorageGRID Management mit BlueXP
+  summary: Eine vollständige Ansicht Ihrer Daten in Ihrer Hybrid-Multi-Cloud erhalten
+    Sie durch die Erkennung von StorageGRID Systemen von BlueXP.
+  keywords: storagegrid systems, bluexp, data, hybrid, multicloud
+  lead: Eine vollständige Ansicht Ihrer Daten in Ihrer Hybrid-Multi-Cloud erhalten
+    Sie durch die Erkennung von StorageGRID Systemen von BlueXP.
+  tiles:
+  - title: Los geht's
+    links:
+    - title: Erkennen Sie Ihre StorageGRID Systeme
+      url: task-discover-storagegrid.html
+  - title: Managen Sie StorageGRID Systeme
+    links:
+    - title: Sehen Sie Ihre StorageGRID Systeme an
+      url: task-view-storagegrid.html
+    - title: Nutzen Sie NetApp Datenservices mit StorageGRID
+      url: task-enable-data-services.html
+    - title: Entfernen Sie StorageGRID
+      url: task-remove-storagegrid.html
+  - title: Weitere Informationen
+    links:
+    - title: StorageGRID-Dokumentation für Management außerhalb von BlueXP
+      url: https://docs.netapp.com/us-en/storagegrid-116/
+  - title: Blogs Community
+    links:
+    - title: NetApp Community
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP-Blog
+      url: https://cloud.netapp.com/blog
+    - title: Cloud-Webinare
+      url: https://cloud.netapp.com/events
