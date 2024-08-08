@@ -1,0 +1,136 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: Verwalten Sie ein StorageGRID-System über BlueXP  mithilfe der erweiterten Ansicht. Mit dieser Ansicht können Sie den Grid-Manager aus der StorageGRID-Arbeitsumgebung heraus verwenden. 
+---
+= Verwalten Sie StorageGRID über die erweiterte Ansicht
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Verwalten Sie ein StorageGRID-System über BlueXP  mithilfe der erweiterten Ansicht. Mit dieser Ansicht können Sie den Grid-Manager aus der StorageGRID-Arbeitsumgebung heraus verwenden.
+
+
+
+== Unterstützte Konfigurationen
+
+Grid Manager ist in BlueXP  ab StorageGRID 11.8 verfügbar.
+
+
+
+== Einschränkungen
+
+Die folgenden Grid-Manager-Vorgänge sind von BlueXP  nicht verfügbar. Wenn Sie diese Vorgänge ausführen müssen, melden Sie sich direkt beim Grid Manager an.
+
+[cols="1a,2a"]
+|===
+| Menü „Grid Manager“ | Vorgänge nicht über BlueXP  verfügbar 
+
+
+ a| 
+Benutzer
+ a| 
+* Link „Abmelden“
+* Link zur API-Dokumentation
+* Passwort ändern
+
+
+
+
+ a| 
+Knoten
+ a| 
+* Sie können nicht über die Registerkarte Knoten > SANtricity-System-Manager auf den SANtricity-System-Manager zugreifen.
+* Beim Anzeigen von Warnungen können Sie möglicherweise nicht alle Links in den empfohlenen Aktionen auswählen. Links, die zu nicht unterstützten Grid-Manager-Seiten gehen, funktionieren beispielsweise nicht.
+
+
+
+
+ a| 
+Mandanten
+ a| 
+Sie können sich nicht über den Assistenten „Erstellen eines Mandanten“ oder über die Seite „Mandanten“ bei einem Mandantenkonto anmelden.
+
+BlueXP  unterstützt derzeit den Mandantenmanager nicht. Obwohl Sie neue Mandantenkonten von BlueXP  erstellen können, können sich Mandantenbenutzer nicht über BlueXP  bei ihren Konten anmelden.
+
+
+
+ a| 
+ILM
+ a| 
+Storage-Klassen Link
+
+
+
+ a| 
+Konfiguration
+ a| 
+* Grid-Passwörter
+* Verkehrsklassifizierung > Kennzahlen
+* Sicherheitseinstellungen > Zeitlimit für Inaktivität des Browsers
+* Single Sign On
+* SNMP-Agent > MIB-Datei für die BMC-Schnittstelle
+
+
+
+
+ a| 
+Wartung
+ a| 
+* Wiederherstellungspaket
+* Software-Update
+
+
+
+
+ a| 
+Support
+ a| 
+* Grid-Topologie
+* Protokolle
+* Kennzahlen, einschließlich aller Links zu Prometheus-Kennzahlen und Grafana-Dashboards von anderen Stellen in der Benutzeroberfläche.
+* Alle Optionen für ältere Alarme
+* Verbindungskosten
+* NMS-Einheiten
+
+
+|===
+
+
+== Wechseln Sie zur erweiterten Ansicht
+
+Öffnen Sie eine StorageGRID-Arbeitsumgebung, und wählen Sie die Option Erweiterte Ansicht.
+
+.Schritte
+. Öffnen Sie auf der Seite Bildschirm die Arbeitsumgebung StorageGRID.
+. Wählen Sie oben rechts *zur erweiterten Ansicht wechseln*.
++
+image:screenshot-advanced-view.png["Ein Screenshot einer StorageGRID-Arbeitsumgebung, in der die Option zur erweiterten Ansicht wechseln angezeigt wird."]
+
+. Verwalten Sie das StorageGRID System mit Grid Manager.
++
+Ein Unterschied, den Sie beachten sollten, ist, dass das Menü Hilfe in Grid Manager durch das folgende Menü ersetzt wurde:
+
++
+image:advanced-view-menu.png["Ein Screenshot einer StorageGRID-Arbeitsumgebung, in der oben rechts auf dem Bildschirm ein Aktionsmenü verfügbar ist."]
+
++
+Alle gleichen Hilfeoptionen stehen in diesem Menü zur Verfügung, mit Ausnahme des API-Dokumentations-Links.
+
+. Wählen Sie bei Bedarf zur Standardansicht wechseln, um über BlueXP  zur Standardansicht zurückzukehren.
++
+image:screenshot-standard-view.png["Ein Screenshot einer StorageGRID-Arbeitsumgebung, in der die Option zur Standardansicht wechseln angezeigt wird."]
+
+
+
+
+
+== Holen Sie sich Hilfe zum Grid Manager
+
+Wenn Sie Hilfe bei der Verwendung des Grid-Managers benötigen, finden Sie Schritt-für-Schritt-Anleitungen unter https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID-Dokumentation"^] .

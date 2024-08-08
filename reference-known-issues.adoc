@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors 
+summary: Bekannte Probleme identifizieren Probleme, die Sie daran hindern könnten, diese Produktversion erfolgreich zu verwenden. 
+---
+= Bekannte Probleme
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Bekannte Probleme identifizieren Probleme, die Sie daran hindern könnten, diese Produktversion erfolgreich zu verwenden.
+
+
+
+== Aktualisierte Anzeigenamen werden in BlueXP  nicht angezeigt
+
+Wenn Sie das Umbenennungsverfahren verwenden, um einen neuen Anzeigenamen für einen Standort oder ein Raster zu definieren, wird der neue Anzeigename nicht in der BlueXP -Arbeitsumgebung angezeigt. In der Arbeitsumgebung wird weiterhin der Systemname und nicht der neue Anzeigename angezeigt.
+
+
+
+== Fehler beim Filtern von Warnmeldungen
+
+Wenn Sie die erweiterte Ansicht verwenden, führt das Filtern des Inhalts der Seite Warnungen zu einem Fehler.
+
+
+
+== Fehler beim Bearbeiten der Verbindung zum Grid Federation
+
+Bei der Verwendung der erweiterten Ansicht kann beim Bearbeiten einer Grid Federation-Verbindung ein Gateway-Timeout-Fehler auftreten.

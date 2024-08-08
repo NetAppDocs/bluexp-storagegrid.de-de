@@ -16,6 +16,8 @@ sidebar:
     entries:
     - title: Was ist neu
       url: "/whats-new.html"
+    - title: Bekannte Probleme
+      url: "/reference-known-issues.html"
   - title: Los geht's
     entries:
     - title: StorageGRID Systeme erkennen
@@ -24,6 +26,10 @@ sidebar:
     entries:
     - title: Sehen Sie Ihre StorageGRID Systeme an
       url: "/task-view-storagegrid.html"
+    - title: Verwalten von Zertifikaten
+      url: "/task-manage-certificates.html"
+    - title: Verwalten Sie StorageGRID über die erweiterte Ansicht
+      url: task-administer-storagegrid.html
     - title: Nutzen Sie NetApp Datenservices mit StorageGRID
       url: "/task-enable-data-services.html"
     - title: Entfernen Sie eine Arbeitsumgebung

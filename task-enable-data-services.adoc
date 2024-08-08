@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-enable-data-services.html 
-keywords: storagegrid, cloud sync, cloud backup, backup, back up data 
-summary: Nachdem Sie ein StorageGRID System in BlueXP entdeckt haben, können Sie die Datenservices von NetApp mit StorageGRID für Backups und die Datensynchronisierung nutzen. 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid 
+summary: Nach der Erkennung eines StorageGRID Systems in BlueXP  können Sie die Datenservices von NetApp für Backups, Daten-Tiering und Datensynchronisierung verwenden. 
 ---
 = Nutzen Sie NetApp Datenservices mit StorageGRID
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Nachdem Sie ein StorageGRID System in BlueXP entdeckt haben, können Si
 
 
 [role="lead"]
-Nachdem Sie ein StorageGRID System in BlueXP entdeckt haben, können Sie die Datenservices von NetApp für Backups und die Datensynchronisierung nutzen.
+Nach der Erkennung eines StorageGRID Systems in BlueXP  können Sie die Datenservices von NetApp für Backups, Daten-Tiering und Datensynchronisierung verwenden.
 
 * Mit BlueXP Backup und Recovery erstellen Sie Backups von Daten aus Ihren lokalen ONTAP Systemen auf Objekt-Storage in Ihren NetApp StorageGRID Systemen.
 +
@@ -22,6 +22,13 @@ Um zu beginnen, öffnen Sie den BlueXP Arbeitsbereich und ziehen eine lokale ONT
 
 +
 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["Weitere Informationen zum Backup von On-Premises-ONTAP-Daten in StorageGRID"^]
+
+* Mit BlueXP  Tiering verschieben Sie automatisch inaktive Daten aus lokalen ONTAP Clustern auf StorageGRID.
++
+Um zu beginnen, öffnen Sie den BlueXP Arbeitsbereich und ziehen eine lokale ONTAP Arbeitsumgebung in Ihrer StorageGRID Arbeitsumgebung per Drag & Drop.
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["Weitere Informationen zum Tiering von Daten aus lokalen ONTAP Clustern zu StorageGRID"^]
 
 * BlueXP Kopier- und Synchronisierungsfunktion ermöglicht die Synchronisierung von Daten mit oder von einem StorageGRID System.
 +

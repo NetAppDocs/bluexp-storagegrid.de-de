@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: task-manage-certificates.html 
+keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate 
+summary: Da Zertifikate ablaufen können, müssen Sie gelegentlich den Status anzeigen oder ein Zertifikat aktualisieren. 
+---
+= Verwalten von Zertifikaten in BlueXP 
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Zertifikate für die Managementschnittstelle, die vom Benutzer genehmigt wurden, sind für eine sichere Verbindung zwischen BlueXP  und StorageGRID erforderlich. Da Zertifikate ablaufen können, müssen Sie gelegentlich den Status anzeigen oder ein Zertifikat aktualisieren.
+
+
+
+== Zeigen Sie den Status des Management-Inferface-Zertifikats an
+
+.Schritte
+. Wählen Sie im Navigationsmenü die Option *Storage > Canvas* aus.
+. Wählen Sie auf der Seite Bildschirm die Arbeitsumgebung StorageGRID aus.
+. Überprüfen Sie in der Standardansicht unten im Bereich _Information_ auf der rechten Seite den Status des vom Benutzer genehmigten Zertifikats.
++
+
+NOTE: Der Zertifikatsstatus wird alle 24 Stunden aktualisiert.
+
++
+image:screenshot-standard-view-information.png["Ein Screenshot des Fensters Informationen in der Arbeitsumgebung."]
+
+
+
+
+
+== Aktualisieren Sie das Zertifikat für die Managementoberfläche
+
+Wenn der Status Ihres Zertifikats für die Managementoberfläche ungültig ist oder Sie eine Benachrichtigung erhalten, dass Ihr Zertifikat abgelaufen ist, müssen Sie es aktualisieren, damit BlueXP  eine Verbindung zu StorageGRID herstellen kann.
+
+.Schritte
+. Besuchen Sie Ihren On-Premises Grid Manager in StorageGRID und folgen Sie den Anweisungen für https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installieren eines Zertifikats für die Managementoberfläche auf StorageGRID"].
+. Wählen Sie im Blue XP-Navigationsmenü *Speicher > Leinwand*.
+. Wählen Sie auf der Seite Bildschirm die Arbeitsumgebung StorageGRID aus.
+. Wählen Sie das Symbol für weitere Optionen (Kreis mit drei vertikalen Punkten).
++
+image:screenshot-update-certificate.png["Ein Screenshot des Menüs Update."]
+
+. Wählen Sie *Zertifikat aktualisieren*.
++
+
+NOTE: Sie können das Zertifikat auch über das Symbol für weitere Optionen (das Symbol mit drei vertikalen Punkten) in der Standardansicht aktualisieren.
+
++
+image:screenshot-bluexp-approve-certificate.png["Ein Screenshot mit dem Bildschirm Zertifikat genehmigen, der während der Erkennung eines StorageGRID-Systems angezeigt wird"]
+
+. Wählen Sie auf der Seite _Zertifikat genehmigen_ die Option *Zertifikat genehmigen* aus, um das aktualisierte Zertifikat zu verwenden.
+
