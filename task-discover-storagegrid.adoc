@@ -61,7 +61,13 @@ image:screenshot-bluexp-approve-certificate.png["Ein Screenshot mit dem Bildschi
 +
 Eine Erfolgsmeldung wird angezeigt. Die gesamte Kommunikation zwischen dem StorageGRID-Server und dem BlueXP -Anschluss wird durch Überprüfung des genehmigten Zertifikats gesichert.
 
-.. Wählen Sie *Abbrechen*, um den Ermittlungsvorgang ohne Überprüfung des Zertifikats zu beenden. Sie können beispielsweise *Abbrechen* auswählen, wenn Sie eine Fehlermeldung erhalten, die Sie darüber informiert, dass das StorageGRID-Verwaltungszertifikat aktualisiert werden muss. Um ein Zertifikat zu aktualisieren, gehen Sie zu <<use-a-different-certificate,Verwenden Sie ein anderes Zertifikat>>.
+.. Wählen Sie *Abbrechen*, um den Ermittlungsvorgang ohne Überprüfung des Zertifikats zu beenden.
++
+Sie können beispielsweise *Abbrechen* auswählen, wenn Sie eine Fehlermeldung erhalten, die Sie darüber informiert, dass das StorageGRID-Verwaltungszertifikat aktualisiert werden muss.
+
++
+Um ein Zertifikat zu aktualisieren, wechseln Sie zu Ihrem StorageGRID-System, aktualisieren Sie das Zertifikat, und starten Sie dann den Erkennungsvorgang von BlueXP  aus neu.
+
 
 
 

@@ -327,16 +327,11 @@
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">Führen Sie einen der folgenden Schritte aus:</block>
   <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">Wählen Sie *Zertifikat genehmigen*, um das Zertifikat zu verwenden.</block>
   <block id="deac8378c59fe3d88512463d35486723" category="paragraph">Eine Erfolgsmeldung wird angezeigt. Die gesamte Kommunikation zwischen dem StorageGRID-Server und dem BlueXP -Anschluss wird durch Überprüfung des genehmigten Zertifikats gesichert.</block>
-  <block id="6502d6f8bcdbec889abfd4f9ee49d279" category="inline-xref">Verwenden Sie ein anderes Zertifikat</block>
-  <block id="11c83ac6af0af0d96eb2efd46a58e4d7" category="list-text">Wählen Sie *Abbrechen*, um den Ermittlungsvorgang ohne Überprüfung des Zertifikats zu beenden. Sie können beispielsweise *Abbrechen* auswählen, wenn Sie eine Fehlermeldung erhalten, die Sie darüber informiert, dass das StorageGRID-Verwaltungszertifikat aktualisiert werden muss. Um ein Zertifikat zu aktualisieren, gehen Sie zu <block ref="cbb87429ce09864118ddd4cf8178f97a" category="inline-xref-macro-rx"></block>.</block>
   <block id="2e554a31f32eb1a9d79a5d2cc2bede8e" category="summary">Nach der Erkennung eines StorageGRID Systems in BlueXP  können Sie die Datenservices von NetApp für Backups, Daten-Tiering und Datensynchronisierung verwenden.</block>
   <block id="4eab2e2a950d4847ea3f57ddbc97670b" category="list-text">Mit BlueXP  Tiering verschieben Sie automatisch inaktive Daten aus lokalen ONTAP Clustern auf StorageGRID.</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">Weitere Informationen zum Tiering von Daten aus lokalen ONTAP Clustern zu StorageGRID</block>
   <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
   <block id="1c0cf398fca729802189afd04195daca" category="summary">Da Zertifikate ablaufen können, müssen Sie gelegentlich den Status anzeigen oder ein Zertifikat aktualisieren.</block>
-  <block id="caa195df7a0b5a440b3683eb81e694b5" category="doc">Verwalten von Zertifikaten in BlueXP </block>
-  <block id="1fb464c67404a14a65cf030b2f0f97f0" category="paragraph">Zertifikate für die Managementschnittstelle, die vom Benutzer genehmigt wurden, sind für eine sichere Verbindung zwischen BlueXP  und StorageGRID erforderlich. Da Zertifikate ablaufen können, müssen Sie gelegentlich den Status anzeigen oder ein Zertifikat aktualisieren.</block>
-  <block id="67eb5446652b4fd2dad98eddc62be98d" category="section-title">Zeigen Sie den Status des Management-Inferface-Zertifikats an</block>
   <block id="6b3bbbb8c1a9c2cde18108cb407d12b1" category="list-text">Überprüfen Sie in der Standardansicht unten im Bereich _Information_ auf der rechten Seite den Status des vom Benutzer genehmigten Zertifikats.</block>
   <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">Der Zertifikatsstatus wird alle 24 Stunden aktualisiert.</block>
   <block id="eef982d819b54dca84adf5a46c7d66a3" category="inline-image-macro">Ein Screenshot des Fensters Informationen in der Arbeitsumgebung.</block>
@@ -344,12 +339,10 @@
   <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">Aktualisieren Sie das Zertifikat für die Managementoberfläche</block>
   <block id="3daf5f764d9eac915ca7f7ab4335d201" category="paragraph">Wenn der Status Ihres Zertifikats für die Managementoberfläche ungültig ist oder Sie eine Benachrichtigung erhalten, dass Ihr Zertifikat abgelaufen ist, müssen Sie es aktualisieren, damit BlueXP  eine Verbindung zu StorageGRID herstellen kann.</block>
   <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">Besuchen Sie Ihren On-Premises Grid Manager in StorageGRID und folgen Sie den Anweisungen für<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block>.</block>
-  <block id="9e2635fdb6db86b89da8e5e9cad203da" category="list-text">Wählen Sie im Blue XP-Navigationsmenü *Speicher &gt; Leinwand*.</block>
   <block id="40540158a277d365081d54ce377ee023" category="list-text">Wählen Sie das Symbol für weitere Optionen (Kreis mit drei vertikalen Punkten).</block>
   <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">Ein Screenshot des Menüs Update.</block>
   <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">Wählen Sie *Zertifikat aktualisieren*.</block>
-  <block id="cf96257e362bc3de2bdd4efd448d70aa" category="admonition">Sie können das Zertifikat auch über das Symbol für weitere Optionen (das Symbol mit drei vertikalen Punkten) in der Standardansicht aktualisieren.</block>
   <block id="434da4cffed06e08c23765d021db1afc" category="list-text">Wählen Sie auf der Seite _Zertifikat genehmigen_ die Option *Zertifikat genehmigen* aus, um das aktualisierte Zertifikat zu verwenden.</block>
   <block id="101a4dba130db08f412262b11097db65" category="list-text">Wählen Sie in der Standardansicht das Menüsymbol und dann *aus Arbeitsbereich entfernen*.</block>
   <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">7 August 2024</block>
@@ -362,5 +355,12 @@
   <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">Erfahren Sie, wie Sie das Serverzertifikat während der Systemerkennung überprüfen und genehmigen.</block>
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
   <block id="bf8b4b4bc9546fbf0734766cd0ad6317" category="sidebar">Managen Sie Ihre StorageGRID Systeme über BlueXP  mit Grid Manager und nutzen Sie die Datenservices von BlueXP für Backups, Daten-Tiering und vieles mehr.</block>
-  <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">Verwalten von Zertifikaten</block>
+  <block id="57451516de60f65a613633c72a543441" category="list-text">Wählen Sie *Abbrechen*, um den Ermittlungsvorgang ohne Überprüfung des Zertifikats zu beenden.</block>
+  <block id="8573a317227bda2e8dcf6245b9035011" category="paragraph">Sie können beispielsweise *Abbrechen* auswählen, wenn Sie eine Fehlermeldung erhalten, die Sie darüber informiert, dass das StorageGRID-Verwaltungszertifikat aktualisiert werden muss.</block>
+  <block id="e9b0047ba9b98249dc4a3e9bc46a658e" category="paragraph">Um ein Zertifikat zu aktualisieren, wechseln Sie zu Ihrem StorageGRID-System, aktualisieren Sie das Zertifikat, und starten Sie dann den Erkennungsvorgang von BlueXP  aus neu.</block>
+  <block id="a604d96f80b6dcdc7ff27801d921e9b3" category="doc">StorageGRID-Zertifikate in BlueXP  anzeigen und aktualisieren</block>
+  <block id="cac8f8d491009407dfbdb3b442860ade" category="paragraph">Ein Zertifikat für die Managementoberfläche ist auf Ihrem StorageGRID-System erforderlich, bevor Sie das System von BlueXP  aus erkennen. Das Zertifikat stellt eine sichere Verbindung zwischen BlueXP  und StorageGRID bereit. Da Zertifikate ablaufen können, müssen Sie gelegentlich den Status anzeigen oder ein Zertifikat aktualisieren.</block>
+  <block id="fbd54ca9d42fc0afdb26c5c699c8e55e" category="section-title">Zeigen Sie den Status eines Zertifikats für die Managementoberfläche an</block>
+  <block id="ac2871047714af92edb3022cb27acb51" category="paragraph">Zeigen Sie den Status des Zertifikats der Managementoberfläche für ein StorageGRID System an, um zu überprüfen, ob das Zertifikat weiterhin gültig ist.</block>
+  <block id="fb6e1263028aaf83a98c38f91ee467e9" category="sidebar">StorageGRID-Zertifikate anzeigen und aktualisieren</block>
 </blocks>
