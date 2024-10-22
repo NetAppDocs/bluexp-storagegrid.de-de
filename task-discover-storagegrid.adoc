@@ -19,7 +19,8 @@ Ermitteln Sie die StorageGRID Systeme in Ihrer On-Premises-Umgebung und managen 
 .Bevor Sie beginnen
 Sie benötigen Folgendes:
 
-* Ein Connector mit Version 3.9.43 oder höher und Netzwerkverbindung zum StorageGRID-System.
+* Eine Neuinstallation des Connectors mit Version 3.9.43 oder höher.
+* Netzwerkverbindung zwischen dem Connector und dem StorageGRID-System.
 +
 Der Connector kann in der Cloud oder On-Premises residieren. Es wird lediglich eine Netzwerkverbindung zum StorageGRID-System benötigt.
 
