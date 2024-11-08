@@ -365,4 +365,6 @@
   <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">Der Connector kann in der Cloud oder On-Premises residieren. Es wird lediglich eine Netzwerkverbindung zum StorageGRID-System benötigt.</block>
   <block id="db188d9c1fa3be7f6644057e551033c7" category="list-text">Eine Neuinstallation des Connectors mit Version 3.9.43 oder höher.</block>
   <block id="dc8d4eccfd0e6edfd9b12eab22e1dda9" category="list-text">Netzwerkverbindung zwischen dem Connector und dem StorageGRID-System.</block>
+  <block id="4e6cac25727040c5c5bd57e5c5555bec" category="inline-link-macro">Hinweis zum BlueXP  Management von StorageGRID Systemen</block>
+  <block id="6da0afd2bb3a5e61128a9818c9a173e9" category="list-text"><block ref="6da0afd2bb3a5e61128a9818c9a173e9" category="inline-link-macro-rx"></block></block>
 </blocks>
