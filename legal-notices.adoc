@@ -48,5 +48,5 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 In den Benachrichtigungsdateien finden Sie Informationen zu Urheberrechten und Lizenzen von Drittanbietern, die in der NetApp Software verwendet werden.
 
 * https://docs.netapp.com/us-en/bluexp-setup-admin/media/notice.pdf["Hinweis für BlueXP"^]
-* link:media/notice.pdf["Hinweis zum BlueXP  Management von StorageGRID Systemen"^]
+* link:media/NOTICE-storageservices.pdf["Hinweis zum BlueXP  Management von StorageGRID Systemen"^]
 
