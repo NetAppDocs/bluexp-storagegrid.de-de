@@ -16,17 +16,13 @@ summary: Ermitteln Sie die StorageGRID Systeme in Ihrer On-Premises-Umgebung und
 [role="lead"]
 Ermitteln Sie die StorageGRID Systeme in Ihrer On-Premises-Umgebung und managen Sie sie dann direkt über BlueXP  mithilfe von Grid Manager.
 
+.Erforderliche BlueXP -Rolle:
+Organisationsadministrator, Ordner- oder Projektadministrator, Speicheradministrator oder Systemintegritätsspezialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über BlueXP-Zugriffsrollen."^]
+
 .Bevor Sie beginnen
 Sie benötigen Folgendes:
 
-* Eine Neuinstallation des Connectors mit Version 3.9.43 oder höher.
-* Netzwerkverbindung zwischen dem Connector und dem StorageGRID-System.
-+
-Der Connector kann in der Cloud oder On-Premises residieren. Es wird lediglich eine Netzwerkverbindung zum StorageGRID-System benötigt.
-
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Erfahren Sie mehr über Anschlüsse und wie Sie einen Anschluss erstellen"^]
-
+* Ein Connector mit Version 3.9.43 oder höher. Sie benötigen die Rolle des Organisationsadministrators, um einen Connector zu installieren. Wenn Sie nicht wissen, ob Ihre Organisation über einen Connector verfügt oder einen erstellen muss, wenden Sie sich an Ihren BlueXP Administrator.  https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["Wenden Sie sich an den Administrator Ihrer Organisation."^]
 * Der Domain-Name oder die IP-Adresse des Admin-Node.
 * Administratoranmeldeinformationen für den Admin-Node
 * Ein auf dem StorageGRID-System installiertes Zertifikat für die Managementoberfläche.
@@ -36,13 +32,9 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 
 
 .Schritte
-. Wählen Sie im Navigationsmenü von BlueXP *Storage > Canvas*.
+. Wählen Sie im Navigationsmenü die Option *Storage > Canvas* aus.
 . Wählen Sie *Arbeitsumgebung hinzufügen* und dann *On-premises*.
 . Wählen Sie neben *StorageGRID* *Entdecken*.
-. Wenn Sie dazu aufgefordert werden, erstellen Sie einen Konnektor.
-+
-Weitere Informationen erhalten Sie über den obigen Link.
-
 . Geben Sie auf der Seite _StorageGRID Cluster Details_ in BlueXP  den Domänennamen oder die IP-Adresse des Admin-Knotens sowie die Anmeldeinformationen für den Knoten ein, und wählen Sie dann *Hinzufügen* aus.
 +
 image:screenshot-cluster-details.png["Ein Screenshot, der die Seite „StorageGRID-Cluster-Details“ zeigt, auf der Sie den Domain-Namen oder die IP-Adresse des Admin-Nodes und die Anmeldedaten eingeben."]
@@ -51,7 +43,7 @@ image:screenshot-cluster-details.png["Ein Screenshot, der die Seite „StorageGR
 +
 image:screenshot-bluexp-approve-certificate.png["Ein Screenshot mit dem Bildschirm Zertifikat genehmigen, der während der Erkennung eines StorageGRID-Systems angezeigt wird"]
 
-. Wenn Sie ein anderes als das angezeigte Zertifikat verwenden möchten, müssen Sie es zunächst auf Ihrem StorageGRID-System konfigurieren.
+. Um ein anderes Zertifikat zu verwenden, richten Sie es zuerst auf Ihrem StorageGRID -System ein.
 +
 .. Folgen Sie in Ihrem StorageGRID-System vor Ort den Anweisungen: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Installieren eines Zertifikats für die Managementoberfläche auf StorageGRID"^].
 .. Nachdem Sie das Zertifikat im StorageGRID-System konfiguriert haben, wählen Sie *Abbrechen* auf der Seite _Zertifikat genehmigen_ in BlueXP  aus.
@@ -63,7 +55,7 @@ image:screenshot-bluexp-approve-certificate.png["Ein Screenshot mit dem Bildschi
 +
 .. Wählen Sie *Zertifikat genehmigen*, um das Zertifikat zu verwenden.
 +
-Eine Erfolgsmeldung wird angezeigt. Die gesamte Kommunikation zwischen dem StorageGRID-Server und dem BlueXP -Anschluss wird durch Überprüfung des genehmigten Zertifikats gesichert.
+BlueXP zeigt eine Erfolgsmeldung an und sichert die gesamte Kommunikation zwischen dem StorageGRID Server und dem BlueXP Connector durch Überprüfung des genehmigten Zertifikats.
 
 .. Wählen Sie *Abbrechen*, um den Ermittlungsvorgang ohne Überprüfung des Zertifikats zu beenden.
 +

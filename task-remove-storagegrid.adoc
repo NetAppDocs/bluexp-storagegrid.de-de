@@ -16,6 +16,9 @@ summary: Entfernen Sie eine StorageGRID-Arbeitsumgebung, wenn Sie sie nicht mehr
 [role="lead"]
 Entfernen Sie eine StorageGRID-Arbeitsumgebung, wenn Sie sie nicht mehr über BlueXP verwalten möchten.
 
+.Erforderliche BlueXP -Rolle:
+Organisationsadministrator, Ordner- oder Projektadministrator oder Speicheradministrator. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über BlueXP-Zugriffsrollen."^]
+
 Das Entfernen der Arbeitsumgebung hat keine Auswirkung auf das StorageGRID System. Sie können sie jederzeit über BlueXP wiederentdecken.
 
 .Schritte

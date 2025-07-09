@@ -16,6 +16,9 @@ summary: Da Zertifikate ablaufen können, müssen Sie gelegentlich den Status an
 [role="lead"]
 Ein Zertifikat für die Managementoberfläche ist auf Ihrem StorageGRID-System erforderlich, bevor Sie das System von BlueXP  aus erkennen. Das Zertifikat stellt eine sichere Verbindung zwischen BlueXP  und StorageGRID bereit. Da Zertifikate ablaufen können, müssen Sie gelegentlich den Status anzeigen oder ein Zertifikat aktualisieren.
 
+.Erforderliche BlueXP -Rolle:
+Organisationsadministrator, Ordner- oder Projektadministrator oder Speicheradministrator. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über BlueXP-Zugriffsrollen."^]
+
 
 
 == Zeigen Sie den Status eines Zertifikats für die Managementoberfläche an

@@ -16,6 +16,9 @@ summary: Nachdem die StorageGRID Systeme ermittelt wurden, werden Details zur Ka
 [role="lead"]
 Nachdem die StorageGRID Systeme ermittelt wurden, werden Details zur Kapazitätsverteilung und den zugehörigen Warnmeldungen, Nodes und Mandanten angezeigt.
 
+.Erforderliche BlueXP -Rolle:
+Organisationsadministrator, Ordner- oder Projektadministrator, Speicheradministrator oder Systemintegritätsspezialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über BlueXP-Zugriffsrollen."^]
+
 .Schritte
 . Wählen Sie im Navigationsmenü die Option *Storage > Canvas* aus.
 . Wählen Sie auf der Seite Arbeitsfläche die StorageGRID-Arbeitsumgebung aus, die Sie anzeigen möchten.
